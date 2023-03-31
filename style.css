@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  background: #f5f5f6;
+  height: 50px;
+  width: 1152px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 948px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 628px;
+}
+
+a,
+header nav ul li a {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.disabled {
+  color: #959ba4;
+}
+
+header button {
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  width: 58px;
+  height: 33px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+main {
+  width: 1152px;
+  height: 650px;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+h1 {
+  width: 587px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 636px;
+}
+
+main .container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.change {
+  width: 260px;
+}
+
+.enterCurrency {
+  position: relative;
+  width: 259px;
+  height: 102px;
+}
+
+.enterCurrency input {
+  width: 259px;
+  height: 102px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 12px;
+}
+
+.rate {
+  position: absolute;
+  bottom: 4px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  width: 119px;
+  height: 28px;
+  color: #c6c6c6;
+}
+
+.currency__list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.item {
+  height: 33px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #c6c6c6;
+  background-color: white;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  border: 1px solid #e5e5e5;
+}
+
+span {
+  width: 120px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #9f9f9f;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  border: none;
+  text-align: center;
+}
+
+.selected {
+  background: #833ae0;
+  border: 1px solid #833ae0;
+}
